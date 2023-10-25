@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IT-новости</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="js.js"></script>
+  </head>
+  <body class="background-dark">
+
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="https://digital.gov.ru/ru/"><img src="https://u.9111s.ru/uploads/202204/06/d174014e3220a147fea2d794864250fe.png" alt="" height="50"></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Переключить навигацию" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-2">
+                    <li class="nav-item"><a runat="server"  class="nav-link" id="adminLink" visible="false" href="https://digital.gov.ru/ru/ministry/common/">О министерстве</a></li>
+                    <li class="nav-item"><a class="nav-link" runat="server" href="https://digital.gov.ru/ru/events/list/">События</a></li>
+                    <li class="nav-item"><a class="nav-link" runat="server" href="https://digital.gov.ru/ru/activity/">Деятельность</a></li>
+                    <li class="nav-item"><a class="nav-link" runat="server" href="https://digital.gov.ru/ru/documents/">Документы</a></li>
+                    <li class="nav-item"><a class="nav-link" runat="server" href="https://digital.gov.ru/ru/contacts/">Контакты</a></li>
+                    <li class="nav-item"><a class="nav-link" runat="server" href="https://digital.gov.ru/ru/ministry/vacancies/">Вакансии</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded-5">
+        <a href="https://digital.gov.ru/ru/"><img src="https://u.9111s.ru/uploads/202204/06/d174014e3220a147fea2d794864250fe.png" class="img-fluid" width="600" alt="Логотим Минцифры Росии"></a>
+        <h1 class="title">Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации</h1><br>
+
+            <div class="row align-items-start">
+
+              <div class="col-4">
+                <h2 class="subtitle">Новости Российского IT</h2>
+                <section>
+                    <div class=ImgField><a href="https://digital.gov.ru/ru/events/media/3809/">
+                        <img class="image first img-fluid rounded-5 border border-3" src="https://digital.gov.ru/preview/c/9fe4477c50f828c15b4773ce252354e7/984/x/655/uploaded/photos/na-oblozhku.JPG" width="420"/>
+                        <img class="image second img-fluid rounded-5 border border-3" src="https://digital.gov.ru/preview/c/8d17879a09910a553bbd303960adb626/984/x/655/uploaded/photos/4_UxOevMp.JPG" width="420"/>
+                    </a> 
+                    </div><br>
+                </section><br>
+                <ol class="text-start list-group list-group-numbered list-group-flush">
+                    <li class="list-group-item"><a href='https://digital.gov.ru/ru/events/media/3817/'>8 заседание Общественной межправительственной Российско-Саудовской комиссии</a></li>
+                    <li class="list-group-item"><a href='https://digital.gov.ru/ru/events/media/3804/'>О сотрудничестве России и Китая в медиасфере</a></li>
+                    <li class="list-group-item"><a href='https://digital.gov.ru/ru/events/media/3809/'>Международный форум Kazan Digital Week</a></li>
+                    <li class="list-group-item"><a href='https://digital.gov.ru/ru/events/media/3803/'>Цифровизация в госсекторе: итоги 2023</a></li>
+                  </ol>
+              </div>
+
+              <div class="col-4">
+                <h2 class="subtitle">Новости IT по миру</h2>
+                <section>
+                <div class=ImgField><a href="https://digital.gov.ru/ru/activity/directions/1/">
+                    <img class="image first img-fluid rounded-5 border border-3" src="https://digital.gov.ru/preview/c/9a29696b0be3b6356cb9d2db89a534f7/984/x/655/uploaded/photos/1_etvUzCv.jpg" width="420"/>
+                    <img class="image second img-fluid rounded-5 border border-3" src="https://digital.gov.ru/preview/c/1852372c049c88eb9a45bb6fc9f18a10/984/x/655/uploaded/photos/5_x3uE1lE.jpg" width="420"/>
+                </a>  
+                </div><br>
+                </section><br>
+                  <ul class="text-start list-group list-group-flush">
+                    <li class="list-group-item">StarLink обещает раздавать спутниковый интернет прямо на смартфоны</li>
+                    <li class="list-group-item">Xiaomi представила собственную мобильную операционную систему</li>
+                    <li class="list-group-item">Федеральная комиссия по связи США получила от 20 операторов связи на официальный запрос невнятные отписки и спам</li>
+                    <li class="list-group-item">Состоялся релиз Node.js 21</li>
+                  </ul>
+              </div>
+            </div>
+            
+            <h1 class="title">Тест на знание основ IT</h1>
+            <h2 class="subtitle">Проверьте свои знания!</h2>
+            <div id="quizWrap"></div>
+        
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

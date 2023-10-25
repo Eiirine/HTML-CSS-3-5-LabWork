@@ -1,0 +1,134 @@
+body {
+    min-width: 850px;
+    background-color: blue;
+  }
+  
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: William, serif;
+    font-weight: bold;
+    font-size: 31px;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-family: Inter, sans-serif;
+    font-size: 31px;
+    text-transform: uppercase;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Inter, sans-serif;
+    text-align: center;
+  }
+  
+  img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  div {
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+  
+  .image.first,.image.second {
+    border:2px solid transparent;
+    margin:0;
+    padding:0;
+    }
+    
+    .image.first {
+    opacity:1px;
+    display:block;
+    position:absolute;
+    z-index:100;
+    transition-duration:0.96s;
+    -webkit-transition-duration:0.96s;
+    -moz-transition-duration:0.96s;
+    -o-transition-duration:0.96s;
+    -ms-transition-duration:0.96s;
+    }
+    
+    .image.first:hover {
+    opacity:0.00;
+    }
+     
+    div.ImgField {
+    display:inline-block;
+    background-position:center center;
+    background-repeat:no-repeat;
+    margin:0;
+    padding:0;
+    }
+
+    ul {
+        text-align: center;
+        list-style-position: inside;
+    }
+
+.background-dark {
+    background-color: #212529;
+}
+
+.title {
+    font-size: 30px;
+  font-weight: 600;
+  background-image: linear-gradient(to bottom, #61c6ec, #1d628a);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text
+  }
+
+.subtitle {
+    color: #727271;
+  }
+
+  /* (A) WRAPPER */
+#quizWrap {
+  max-width: 600px;
+  margin: 0 auto;
+  height: 350px; 
+  }
+  /* (B) QUESTION */
+  #quizQn {
+  padding: 20px;
+  background-image: linear-gradient(to bottom, #61c6ec, #1d628a);
+  color: #fff;
+  font-size: 24px;
+  border-radius: 10px;
+  }
+  /* (C) ANSWERS */
+  #quizAns {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  }
+  #quizAns input[type=radio] {
+  display: none;
+  }
+  #quizAns label {
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  }
+  #quizAns label.correct {
+  background: #d8ffc4;
+  border: 1px solid #60a03f;
+  }
+  #quizAns label.wrong {
+  background: #ffe8e8;
+  border: 1px solid #c78181;
+  }
+  
